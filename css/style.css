@@ -1,6 +1,10 @@
 @import "fonts.css";
 @import "colors.css";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'roboto';
 }
@@ -32,7 +36,6 @@ body {
 }
 
 .liens a {
-    color: white;
     text-transform: uppercase;
     border: solid 3px transparent;
     padding: 5px 10px;
@@ -56,20 +59,65 @@ body {
 }
 
 .services {
-    height: 100%;
+    height: 40vh;
+    color: white;
 }
 
-@media screen and (max-width:768px) {
+.textService {
+    font-size: .75em;
+}
+
+.portfolio {
+    height: 80vh;
+}
+
+
+@media screen and (max-width:992px) {
     .services {
         height: 100%;
+    }
+
+    .bigTitle {
+        font-size: 1.3em;
     }
 }
 
 .titleBloc {
     font-family: "caviarDreams";
     text-transform: uppercase;
+    font-size: 2em;
 }
 
-.underline {
-    text-decoration: underline;
+.underlineBlack {
+    border-bottom: solid black 1px;
+}
+
+.underlineWhite {
+    border-bottom: white solid 1px;
+}
+
+.black {
+    color: black;
+}
+
+.white {
+    color: white;
+}
+
+.default {
+    height: 45vh;
+}
+
+.textDefault {
+    font-size: 15px;
+    line-height: 1.8em;
+    font-family: 'robotoLight', Courier, monospace;
+}
+
+.visitMe {
+    text-transform: uppercase;
+    color: black;
+    padding: 10px 35px;
+    border: black solid 2px;
+    font-size: .8em;
 }
