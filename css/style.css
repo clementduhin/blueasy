@@ -61,7 +61,6 @@ body {
 }
 
 .services {
-    height: 40vh;
     color: white;
 }
 
@@ -69,9 +68,7 @@ body {
     font-size: .75em;
 }
 
-.portfolio {
-    height: 80vh;
-}
+
 
 
 @media screen and (max-width:992px) {
