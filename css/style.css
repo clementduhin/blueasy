@@ -12,7 +12,7 @@ body {
 .background {
     height: 100vh;
     width: 100%;
-    background: url("../img/photo.png");
+    background:linear-gradient(rgba(81, 92, 100, .4), rgba(81, 92, 100, .4)), url("../img/photo.png");
     /* background-position: 5%; */
     filter: grayscale(95%);
     position: absolute;
@@ -84,6 +84,10 @@ body {
     .portfolio {
         height: 100%;
     }
+
+    iframe {
+        display: none;
+    }
 }
 
 .titleBloc {
@@ -130,4 +134,84 @@ body {
     color: white;
     text-decoration: none;
     border: white solid 2px;
+}
+
+.titleTwitter {
+    font-size: 2em;
+    font-family: 'robotoLight';
+    text-transform: uppercase;
+}
+
+.fa-twitter {
+    color: white;
+    font-size: 2em;
+}
+
+.textTwitterTestimonials {
+    font-size: 1.7em;
+    font-family: 'robotoLight';
+}
+
+.john {
+    background: linear-gradient(rgba(81, 92, 100, .4), rgba(81, 92, 100, .4)), url("../img/johnDoe.png")  no-repeat center ;
+}
+
+.logoReseau {
+    font-size: 1.8em;
+    padding: .6em;
+    margin-right: 1em;
+    border: white 2.5px solid;
+    color: white;
+}
+
+.quote {
+    font-size: 4em;
+    font-family: 'Bitter', sans-serif;
+    line-height: 50%;
+}
+
+.signature {
+    color: #4bcaff;
+}
+
+.label {
+    text-transform: uppercase;
+    color: white;
+}
+
+input, textarea {
+    background-color: transparent!important;
+}
+
+.monBtn {
+    text-transform: uppercase;
+    color: white; 
+    background-color: #4bcaff!important;
+    padding: 1.2em 0em;
+    border: none;
+}
+
+.bg-contact {
+    background:linear-gradient(rgba(81, 92, 100, .8), rgba(81, 92, 100, .8)), url("../img/contact.png") ;
+    background-position: bottom -100px right 50%;
+}
+
+
+
+.footerNav {
+    height: 15vh;
+}
+
+.liensFooter a {
+    border-right: solid 1px #536169;
+    color: #536169;
+    padding: 0 10px;
+}
+
+#noBorder {
+    border-right: none;
+}
+
+.footer {
+    background-color: #353f47;
 }
