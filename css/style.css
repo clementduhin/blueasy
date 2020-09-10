@@ -14,7 +14,7 @@ body {
     width: 100%;
     background: url("../img/photo.png");
     /* background-position: 5%; */
-    filter: grayscale(1);
+    filter: grayscale(95%);
     position: absolute;
 }
 
@@ -80,6 +80,10 @@ body {
     .bigTitle {
         font-size: 1.3em;
     }
+
+    .portfolio {
+        height: 100%;
+    }
 }
 
 .titleBloc {
@@ -105,7 +109,7 @@ body {
 }
 
 .default {
-    height: 45vh;
+    height: 50vh;
 }
 
 .textDefault {
@@ -120,4 +124,10 @@ body {
     padding: 10px 35px;
     border: black solid 2px;
     font-size: .8em;
+}
+
+.visitMe:hover {
+    color: white;
+    text-decoration: none;
+    border: white solid 2px;
 }
