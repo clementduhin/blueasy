@@ -1,5 +1,5 @@
-@import "fonts.css";
-@import "colors.css";
+@import "../css/fonts.css";
+@import "../css/colors.css";
 
 html {
     scroll-behavior: smooth;
@@ -12,7 +12,7 @@ body {
 .background {
     height: 100vh;
     width: 100%;
-    background:linear-gradient(rgba(81, 92, 100, .4), rgba(81, 92, 100, .4)), url("../img/photo.png") center;
+    background:linear-gradient(rgba(47, 126, 182, 0.4), rgba(47, 126, 182, 0.4)), url("../img/photo.png");
     /* background-position: 5%; */
     filter: grayscale(95%);
     position: absolute;
@@ -68,81 +68,31 @@ body {
     font-size: .75em;
 }
 
+
+
+
+@media screen and (max-width:992px) {
+    .services {
+        height: 100%;
+    }
+
+    .bigTitle {
+        font-size: 1.3em;
+    }
+
+    .portfolio {
+        height: 100%;
+    }
+
+    iframe {
+        display: none;
+    }
+}
+
 .titleBloc {
     font-family: "caviarDreams";
     text-transform: uppercase;
     font-size: 2em;
-}
-
-.monImage {
-    height: 200px;
-    margin-bottom: 15px;
-}
-
-.image1 {
-    background: url("../img/image1.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image2 {
-    background: url("../img/image2.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image3 {
-    background: url("../img/image3.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image4 {
-    background: url("../img/image4.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image5 {
-    background: url("../img/image5.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image6 {
-    background: url("../img/image6.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image7 {
-    background: url("../img/image7.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.image8 {
-    background: url("../img/image8.png") no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
-.monFiltre {
-    height: 100%;
-    width: 100%;
-    background-color: rgba(128, 128, 128, 0.8);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-}
-
-.monFiltre:hover {
-    opacity: 1;
-}
-
-.monPlus {
-    font-size: 3em;
 }
 
 .underlineBlack {
@@ -160,6 +110,8 @@ body {
 .white {
     color: white;
 }
+
+
 
 .textDefault {
     font-size: 15px;
@@ -180,6 +132,8 @@ body {
     text-decoration: none;
     border: white solid 2px;
 }
+
+
 
 .titleTwitter {
     font-size: 2em;
@@ -241,6 +195,8 @@ input, textarea {
     background-position: bottom -100px right 50%;
 }
 
+
+
 .footerNav {
     height: 15vh;
 }
@@ -257,34 +213,4 @@ input, textarea {
 
 .footer {
     background-color: #353f47;
-}
-
-@media screen and (max-width:992px) {
-    .services {
-        height: 100%;
-    }
-
-    .bigTitle {
-        font-size: 1.3em;
-    }
-
-    .portfolio {
-        height: 100%;
-    }
-
-    iframe {
-        display: none;
-    }
-
-    .maNav {
-        height: auto;
-    }
-
-    .liens {
-        margin-left: 0!important;
-        width: 100%;
-        align-items: center;
-    }
-
-
 }
