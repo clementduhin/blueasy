@@ -16,6 +16,7 @@ body {
     /* background-position: 5%; */
     filter: grayscale(95%);
     position: absolute;
+    background-size: cover;
 }
 
 .relative {
